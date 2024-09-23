@@ -31,7 +31,7 @@ pipeline {
                 // Build the Docker image using the Dockerfile
                 sh "docker build -t ${DOCKER_IMAGE} ."
             }
-        
+          }
         // stage('Deploy') {
         //     steps {
         //         echo 'Deploying the application...'
