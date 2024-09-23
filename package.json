@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "echo 'No build step required for this simple Node.js app'"
+
   },
   "keywords": [],
   "author": "",
