@@ -1,5 +1,8 @@
 pipeline {
     agent any
+    tools {
+        nodejs 'Node18'  // This should match the name of the NodeJS installation in Jenkins
+    }
 
     environment {
         NODE_ENV = 'production'
